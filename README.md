@@ -48,4 +48,15 @@ Client (Chatbot UI / Web App)
             ↓
      Service & AI Logic
             ↓
+🔄 Request Flow
+
+User sends a message from Chatbot UI
+
+Request reaches Spring Boot REST Controllers
+
+Service layer processes AI prompt & business rules
+
+Data is stored/retrieved from Database
+
+AI response is sent back to the client
       Database Layer
