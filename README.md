@@ -48,6 +48,8 @@ Client (Chatbot UI / Web App)
             ↓
      Service & AI Logic
             ↓
+      Database Layer
+
 🔄 Request Flow
 
 User sends a message from Chatbot UI
@@ -59,4 +61,3 @@ Service layer processes AI prompt & business rules
 Data is stored/retrieved from Database
 
 AI response is sent back to the client
-      Database Layer
